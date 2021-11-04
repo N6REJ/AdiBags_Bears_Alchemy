@@ -11,7 +11,12 @@ local MatchIDs
 local tooltip
 local Result = {}
 -- Debug mode switch
-local debugMode = false
+local debugMode = true
+
+-- Notify that debugMode is on
+if debugMode then
+	print("-- Debug mode is on --\n")
+end
 
 local function tooltipInit()
 	local tip, leftside = CreateFrame("GameTooltip"), {}
@@ -24,13 +29,6 @@ local function tooltipInit()
 	end
 	tip.leftside = leftside
 	return tip
-end
-
--- check for items that are exempt from being moved.
-		function setFilter:GetOptions()
-	return {
-
-	}
 end
 
 -- Check for existing filter
@@ -70,6 +68,30 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 		AdiBags:UpdateFilters()
 	end
 
+
+	-- check for items that are exempt from being moved.
+	function filter:GetOptions(profiles)
+		return {
+			profiles
+			--[[ Items switch state
+profile = {
+moveMiscellaneous = true,
+moveCurrency = true,
+moveContaining = true,
+moveSupplies = true,
+moveRare = true,
+moveTraining = true,
+moveToys = true,
+moveCostume = true,
+}
+--]]
+
+		},
+		AdiBags:GetOptionHandler(self, false, function ()
+			return self:Update()
+		end)
+	end
+
 	function filter:Filter(slotData)
 		if self.items[tonumber(slotData.itemId)] then
 			return title
@@ -90,27 +112,37 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 end
 
 -- Lets find out if we need to use profiles
-local function CheckProfle(db.Profiles)
+local function CheckProfile(db)
+	-- get list of excluded items.
+	for name, group in pairs(db.Profiles) do
+		-- is there anything to exclude?
+		-- Filter Name, Elements
+		if debugMode then
+			print(name, group)
+		end
+	end
 
--- get list of excluded items.
-for name, group in pairs(db.Profiles) do
--- is there anything to exclude?
--- Filter Name, Elements
-local itemGroup = name
-local itemElements = group
-end
+	--local profiles = group
+	--[[ Items switch state
+        profile = {
+    moveMiscellaneous = true,
+    moveCurrency = true,
+    moveContaining = true,
+    moveSupplies = true,
+    moveRare = true,
+    moveTraining = true,
+    moveToys = true,
+    moveCostume = true,
+} --]]
 
---[[
-AdiBags:GetOptionHandler(self, false, function ()
-return self:Update()
-end)
---]]
-
+	--[[ send the created table to next step
+	return profiles
+	--]]
 end
 
 -- Run filters
 local function AllFilters(db)
-	local profiles = CheckProfle(db.Profiles)
+	local options = CheckProfile(db.Profiles)
 
 	for name, group in pairs(db.Filters) do
 		-- Does filter already exist?
