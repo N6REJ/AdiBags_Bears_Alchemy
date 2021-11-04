@@ -26,6 +26,13 @@ local function tooltipInit()
 	return tip
 end
 
+-- check for items that are exempt from being moved.
+		function setFilter:GetOptions()
+	return {
+
+	}
+end
+
 -- Check for existing filter
 local function CheckFilter(newFilter)
 	local filterExists = false
@@ -82,8 +89,29 @@ local function CreateFilter(name, uiName, uiDesc, title, items)
 	end
 end
 
+-- Lets find out if we need to use profiles
+local function CheckProfle(db.Profiles)
+
+-- get list of excluded items.
+for name, group in pairs(db.Profiles) do
+-- is there anything to exclude?
+-- Filter Name, Elements
+local itemGroup = name
+local itemElements = group
+end
+
+--[[
+AdiBags:GetOptionHandler(self, false, function ()
+return self:Update()
+end)
+--]]
+
+end
+
 -- Run filters
 local function AllFilters(db)
+	local profiles = CheckProfle(db.Profiles)
+
 	for name, group in pairs(db.Filters) do
 		-- Does filter already exist?
 		local filterExists = CheckFilter(group.uiName)
