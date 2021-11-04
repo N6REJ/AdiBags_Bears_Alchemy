@@ -1,0 +1,12 @@
+package-as: AdiBags_Shadowlands_Alchemy
+
+ignore:
+	- README.md
+
+required-dependencies:
+    - 23350-adibags
+
+optional-dependencies:
+    - 446519-adibags-shadowlands-herbs
+
+license-output: LICENSE

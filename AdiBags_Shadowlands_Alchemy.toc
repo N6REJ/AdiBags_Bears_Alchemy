@@ -1,0 +1,9 @@
+## Interface: 90105
+## Title: AdiBags-Shadowlands Crafting-Alchemy
+## Version: @project-version@
+## Author: Bearesquishy
+## DefaultState: enabled
+## Dependancies: AdiBags
+
+database.lua
+core.lua
