@@ -13,3 +13,6 @@ end
 Choose_A_Name_For_Your_Saved_Variables.SettingForSomething = "foo"
 
 -- Like this --
+![img.png](img.png)
+
+but wait for ADDON_LOADED to fire for your addon before doing stuff with the saved var

@@ -1,6 +1,6 @@
 ## Interface: 90105
 ## Title: AdiBags-Shadowlands Crafting-Alchemy
-## Version: @project-version@
+## Version: 1.6
 ## Author: Bearesquishy
 ## DefaultState: enabled
 ## Dependancies: AdiBags
