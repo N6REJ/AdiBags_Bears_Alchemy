@@ -1,27 +1,47 @@
--- AdiBags_Shadowlands_Crafting - Alchemy Database
--- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy
+-- AdiBags_Shadowlands Alchemy - Database
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
+-- Source on GitHub: https://n6rej.github.io
 --
-local ADDON_NAME, ADDON_TABLE, addon = ...
+local addonName, addonTable, addon = ...
 
 -- Create addon table
-N = { }
-ADDON_TABLE.N = N
+local db = { }
 
--- Label to use
-N["FilterTitle"] = "Alchemy"
+db.name = "Shadowlands Alchemy"
+db.desc = "Alchemy reagents for shadowlands"
 
--- Database of items
-N["database"] = {
-	-- ID,		--Item name
-	180732,		-- Rune Etched Vial
-	183950,		-- Distilled Death Extract
-	171287,		-- Ground Death Blossom
-	171291,		-- Ground Rising Glory
-	171290,		-- Ground Marrowroot
-	171292,		-- Ground Nightshade
-	171288,		-- Ground Vigil's Torch
-	171289,		-- Ground Widowbloom
-	180457,		-- Shadestone
-	307142		-- Shadowgast Ingot
+-- Filter info
+db.Filters = {
+	["Herbs"] = {
+		uiName = "Shadowlands Herbs",
+		uiDesc = "Herbs found in Shadowlands",
+		title = "Herbs",
+		items = {
+			-- ID  = true,		--Item name
+			[180732] = true,		-- Rune Etched Vial
+			[183950] = true,		-- Distilled Death Extract
+			[171287] = true,		-- Ground Death Blossom
+			[171291] = true,		-- Ground Rising Glory
+			[171290] = true,		-- Ground Marrowroot
+			[171292] = true,		-- Ground Nightshade
+			[171288] = true,		-- Ground Vigil's Torch
+			[171289] = true,		-- Ground Widowbloom
+			[180457] = true,		-- Shadestone
+			[307142] = true,		-- Shadowgast Ingot
+		},
+	},
+	["Alchemy"] = {
+		uiName = "Shadowlands Alchemy",
+		uiDesc = "Alchemy reagents for Shadowlands",
+		title = "Alchemy",
+		items = {
+			-- ID  = true,		--Item name
+			[343678] = true,		-- Crafter's Mark II
+			[343679] = true,		-- Crafter's Mark I
+			[343675] = true,		-- Novice Crafter's Mark
+		},
+	},
 }
+
+-- now that db is populated lets pass it on.
+addonTable.db = db
