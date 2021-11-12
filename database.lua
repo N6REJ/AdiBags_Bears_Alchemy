@@ -47,7 +47,7 @@ db.Filters = {
         items = {
             -- ID  = true,		--Item name
             [180457] = true, -- Shadestone
-            [307142] = true -- Shadowgast Ingot
+            [171428] = true -- Shadowgast Ingot
         }
     },
     ["Vendor_Reagents"] = {

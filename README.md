@@ -1,4 +1,4 @@
-# Adibags Shadowlands Alchemy   ![image](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)  ![image](https://img.shields.io/badge/Ready_for-9.1.5-darkgreen)
+# AdiBags Shadowlands Alchemy   ![image](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)  ![image](https://img.shields.io/badge/Ready_for-9.1.5-darkgreen)
 Works with AdiBags to automatically sort Alchemy reagents into categories.
 Can replace [AdiBags_Shadowlands_Herbs](https://www.curseforge.com/wow/addons/adibags-shadowlands-herbs) if desired
 
