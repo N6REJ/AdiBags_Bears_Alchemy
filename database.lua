@@ -5,7 +5,7 @@
 local addonName, addonTable, addon = ...
 
 -- Create addon table
-local db = { }
+local db = {}
 
 db.name = "Shadowlands Alchemy"
 db.desc = "Alchemy reagents for shadowlands"
@@ -23,13 +23,13 @@ db.Filters = {
             [168589] = true, -- Marrow Root
             [169701] = true, -- Death Blossom
             [170554] = true, -- Vigils Torch
-            [171315] = true, -- Nightshade
-        },
+            [171315] = true -- Nightshade
+        }
     },
-    ["Extracts"] = {
-        uiName = "Shadowlands Alchemy Extracts",
-        uiDesc = "Extracts made from herbs found in Shadowlands",
-        title = "Extracts",
+    ["Ground"] = {
+        uiName = "Shadowlands Alchemy Ground",
+        uiDesc = "Ground made from herbs found in Shadowlands",
+        title = "Ground",
         items = {
             -- ID  = true,		--Item name
             [171287] = true, -- Ground Death Blossom
@@ -37,8 +37,8 @@ db.Filters = {
             [171290] = true, -- Ground Marrowroot
             [171292] = true, -- Ground Nightshade
             [171288] = true, -- Ground Vigil's Torch
-            [171289] = true, -- Ground Widowbloom
-        },
+            [171289] = true -- Ground Widowbloom
+        }
     },
     ["Transmute"] = {
         uiName = "Shadowlands Alchemy Transmute",
@@ -47,22 +47,18 @@ db.Filters = {
         items = {
             -- ID  = true,		--Item name
             [180457] = true, -- Shadestone
-            [307142] = true, -- Shadowgast Ingot
-        },
+            [307142] = true -- Shadowgast Ingot
+        }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
+        uiName = "Shadowlands Alchemy Reagents",
+        uiDesc = "Alchmey reagents from vendors used in Shadowlands",
+        title = "Alchemy Reagents",
         items = {
             -- ID    = true,    --Item name
-            [177062] = true, -- Penumbra Thread
-            [178787] = true, -- Orboreal shards
-            [177061] = true, -- Twilight Bark
-            [183955] = true, -- Curing Salt
             [180732] = true, -- Rune Etched Vial
-            [183950] = true, -- Distilled Death Extract
-        },
+            [183950] = true -- Distilled Death Extract
+        }
     },
     ["Crafted_Reagents"] = {
         uiName = "Shadowlands Crafted Reagents",
@@ -74,10 +70,10 @@ db.Filters = {
             [173383] = true, -- Crafter's Mark III
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
-            [183942] = true, -- Novice Mark II
-            [185960] = true, -- Vestige of Origins
+            [183942] = true, -- Novice Mark
+            [185960] = true -- Vestige of Origins
         }
-    },
+    }
 }
 
 -- now that db is populated lets pass it on.
