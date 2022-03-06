@@ -75,7 +75,9 @@ db.Filters = {
             [185960] = true, -- Vestige of Origins
             [359703] = true, -- Vestige of the Eternal
             [187707] = true, -- Progenitor Essentia
-            [359673] = true -- Crafter's Mark of the First Ones
+            [359673] = true, -- Crafter's Mark of the First Ones
+            [187850] = true, -- Sustaining Armor Polish
+            [187827] = true -- Infusion: Corpse Purification
         }
     }
 }
