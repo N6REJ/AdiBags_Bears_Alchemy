@@ -1,8 +1,6 @@
 name: Build Curse Release
 on:
   push:
-    tags:
-      - '**'
 jobs:
   release:
     runs-on: ubuntu-latest
