@@ -52,7 +52,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Shadowlands Alchemy Reagents",
-        uiDesc = "Alchmey reagents from vendors used in Shadowlands",
+        uiDesc = "Alchemy reagents from vendors used in Shadowlands",
         title = "Alchemy Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -71,7 +71,10 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark
-            [185960] = true -- Vestige of Origins
+            [185960] = true, -- Vestige of Origins
+            [359703] = true, -- Vestige of the Eternal
+            [187707] = true, -- Progenitor Essentia
+            [359673] = true -- Crafter's Mark of the First Ones
         }
     }
 }
