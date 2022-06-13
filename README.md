@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Size](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Alchemy) 
-[![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy/actions/workflows/release.yml) 
-[![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Shadowlands_Alchemy.svg)](https://GitHub.com/N6REJ/AdiBags_Shadowlands_Alchemy/releases/)
+[![Build state](https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy/actions/workflows/release.yml)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/N6REJ/Adibags_Shadowlands_Alchemy?sort=semver)
 
 ![Shadowlands](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)
 ![9.2.5](https://img.shields.io/badge/Ready_for-9.2.5-darkgreen)
@@ -17,4 +17,3 @@ Can replace [AdiBags_Shadowlands_Herbs](https://www.curseforge.com/wow/addons/ad
 ![image](https://user-images.githubusercontent.com/1850089/141399695-4841cc1c-6185-40cf-9447-5b39b03f9bae.png)
 
 ![image](https://user-images.githubusercontent.com/1850089/141399892-f4222b53-364c-4984-9048-715b00ea5a4a.png)
-
