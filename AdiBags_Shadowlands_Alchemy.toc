@@ -1,9 +1,10 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: AdiBags-Shadowlands Alchemy
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
 ## X-Curse-Project-ID: 510274
+## X-Wago-ID: xx
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
