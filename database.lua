@@ -1,4 +1,4 @@
--- AdiBags_Shadowlands Alchemy - Database
+-- AdiBags_Bears Alchemy - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
@@ -7,14 +7,14 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Alchemy"
+db.name = "Bears Alchemy"
 db.desc = "Alchemy reagents for shadowlands"
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
-        uiName = "Shadowlands Herbs",
-        uiDesc = "Herbs found in Shadowlands",
+        uiName = "Bears Herbs",
+        uiDesc = "Herbs found in Bears",
         title = "Herbs",
         items = {
             -- ID  = true,		--Item name
@@ -28,8 +28,8 @@ db.Filters = {
         }
     },
     ["Ground"] = {
-        uiName = "Shadowlands Alchemy Ground",
-        uiDesc = "Ground made from herbs found in Shadowlands",
+        uiName = "Bears Alchemy Ground",
+        uiDesc = "Ground made from herbs found in Bears",
         title = "Ground",
         items = {
             -- ID  = true,		--Item name
@@ -42,8 +42,8 @@ db.Filters = {
         }
     },
     ["Transmute"] = {
-        uiName = "Shadowlands Alchemy Transmute",
-        uiDesc = "Transmuted items made from herbs found in Shadowlands",
+        uiName = "Bears Alchemy Transmute",
+        uiDesc = "Transmuted items made from herbs found in Bears",
         title = "Transmute",
         items = {
             -- ID  = true,		--Item name
@@ -52,8 +52,8 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Alchemy Reagents",
-        uiDesc = "Alchemy reagents from vendors used in Shadowlands",
+        uiName = "Bears Alchemy Reagents",
+        uiDesc = "Alchemy reagents from vendors used in Bears",
         title = "Alchemy Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -62,8 +62,8 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands Crafted Reagents",
-        uiDesc = "Reagents made by crafting in Shadowlands",
+        uiName = "Bears Crafted Reagents",
+        uiDesc = "Reagents made by crafting in Bears",
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
