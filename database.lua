@@ -2,19 +2,23 @@
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
-local addonName, addonTable, addon = ...
+local addonName, addonTable = ...;
+
+-- Get locals namse
+local L = addonTable.locales;
+local Expansion = L["SHADOWLANDS"]
 
 -- Create addon table
 local db = {}
 
 db.name = "Bears Alchemy"
-db.desc = "Alchemy reagents for shadowlands"
+db.desc = "Alchemy reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
         uiName = "Bears Herbs",
-        uiDesc = "Herbs found in Bears",
+        uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
             -- ID  = true,		--Item name
@@ -29,7 +33,7 @@ db.Filters = {
     },
     ["Ground"] = {
         uiName = "Bears Alchemy Ground",
-        uiDesc = "Ground made from herbs found in Bears",
+        uiDesc = "Ground made from herbs found in " .. Expansion,
         title = "Ground",
         items = {
             -- ID  = true,		--Item name
@@ -43,7 +47,7 @@ db.Filters = {
     },
     ["Transmute"] = {
         uiName = "Bears Alchemy Transmute",
-        uiDesc = "Transmuted items made from herbs found in Bears",
+        uiDesc = "Transmuted items made from herbs found in " .. Expansion,
         title = "Transmute",
         items = {
             -- ID  = true,		--Item name
@@ -53,7 +57,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Bears Alchemy Reagents",
-        uiDesc = "Alchemy reagents from vendors used in Bears",
+        uiDesc = "Alchemy reagents from vendors used in " .. Expansion,
         title = "Alchemy Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -63,7 +67,7 @@ db.Filters = {
     },
     ["Crafted_Reagents"] = {
         uiName = "Bears Crafted Reagents",
-        uiDesc = "Reagents made by crafting in Bears",
+        uiDesc = "Reagents made by crafting in ",
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
