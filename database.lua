@@ -33,7 +33,7 @@ db.Filters = {
     },
     ["Ground"] = {
         uiName = "Bears Alchemy Ground",
-        uiDesc = "Ground made from herbs found in" .. Expansion,
+        uiDesc = "Ground made from herbs found in " .. Expansion,
         title = "Ground",
         items = {
             -- ID  = true,		--Item name
@@ -47,7 +47,7 @@ db.Filters = {
     },
     ["Transmute"] = {
         uiName = "Bears Alchemy Transmute",
-        uiDesc = "Transmuted items made from herbs found in" .. Expansion,
+        uiDesc = "Transmuted items made from herbs found in " .. Expansion,
         title = "Transmute",
         items = {
             -- ID  = true,		--Item name
@@ -57,7 +57,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Bears Alchemy Reagents",
-        uiDesc = "Alchemy reagents from vendors used in" .. Expansion,
+        uiDesc = "Alchemy reagents from vendors used in " .. Expansion,
         title = "Alchemy Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -67,7 +67,7 @@ db.Filters = {
     },
     ["Crafted_Reagents"] = {
         uiName = "Bears Crafted Reagents",
-        uiDesc = "Reagents made by crafting in",
+        uiDesc = "Reagents made by crafting in ",
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
