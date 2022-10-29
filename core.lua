@@ -4,7 +4,7 @@
 local addonName, addonTable = ...;
 
 -- Get the common names from locales.lua
-local L = addonTable.locales;
+local L = addonTable.locales
 
 -- Get reference to AdiBags addon
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
