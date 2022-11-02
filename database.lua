@@ -1,24 +1,24 @@
--- AdiBags_Bears Alchemy - Database
+-- AdiBags Bears Alchemy - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
 local addonName, addonTable = ...;
 
--- Get locals namse
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+-- Get the common expansion names from expansion.lua
+local E = addonTable.expansion
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
-db.name = "Bears Alchemy"
+db.name = Expansion .. " Alchemy"
 db.desc = "Alchemy reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Herbs"] = {
-        uiName = "Bears Herbs",
+        uiName = Expansion .. " Herbs",
         uiDesc = "Herbs found in " .. Expansion,
         title = "Herbs",
         items = {
@@ -33,9 +33,9 @@ db.Filters = {
         }
     },
     ["Ground"] = {
-        uiName = "Bears Alchemy Ground",
-        uiDesc = "Ground made from herbs found in " .. Expansion,
-        title = "Ground",
+        uiName = Expansion .. " Alchemy Ground",
+        uiDesc = "Ground reagents made from herbs found in " .. Expansion,
+        title = "Ground Herbs",
         items = {
             -- ID  = true,		--Item name
             [171287] = true, -- Ground Death Blossom
@@ -47,7 +47,7 @@ db.Filters = {
         }
     },
     ["Transmute"] = {
-        uiName = "Bears Alchemy Transmute",
+        uiName = Expansion .. " Alchemy Transmute",
         uiDesc = "Transmuted items made from herbs found in " .. Expansion,
         title = "Transmute",
         items = {
@@ -57,7 +57,7 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Bears Alchemy Reagents",
+        uiName = Expansion .. " Alchemy Reagents",
         uiDesc = "Alchemy reagents from vendors used in " .. Expansion,
         title = "Alchemy Reagents",
         items = {
@@ -67,8 +67,8 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears Crafted Reagents",
-        uiDesc = "Reagents made by crafting in ",
+        uiName = Expansion .. " Crafted Reagents",
+        uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
