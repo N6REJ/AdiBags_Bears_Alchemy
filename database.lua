@@ -33,7 +33,7 @@ db.Filters = {
         }
     },
     ["Ground"] = {
-        uiName = Expansion .. " Alchemy Ground",
+        uiName = Expansion .. " Alchemy Extracts",
         uiDesc = "Ground reagents made from herbs found in " .. Expansion,
         title = "Ground Herbs",
         items = {
