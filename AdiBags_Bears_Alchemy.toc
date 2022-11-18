@@ -1,6 +1,6 @@
 ## Interface: 100002
 ## X-Interface: 100002
-## Title: AdiBags-Bears Alchemy
+## Title: AdiBags - Bears Alchemy
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
