@@ -68,6 +68,15 @@ db.Filters = {
    			[191570] = true, -- Dragon's Alchemical Solution
 		}
 	},
+	["Vendor_Reagents"] = {
+		uiName = Expansion .. " Alchemy Reagents",
+		uiDesc = "Alchemy reagents from vendors used in " .. Expansion,
+		title = "Vendor",
+		items = {
+			-- ID    = true,    --Item name
+			[191474] = true, -- Draconic Vial
+		}
+	},
 	["Zone_Reagents"] = {
 		uiName = "Special Reagents",
 		uiDesc = "Special reagents from " .. Expansion,
