@@ -75,6 +75,7 @@ db.Filters = {
 		items = {
 			-- ID    = true,    --Item name
 			[191474] = true, -- Draconic Vial
+			[197861] = true, -- Fleeting Philosopher's Stone
 		}
 	},
 	["Zone_Reagents"] = {
