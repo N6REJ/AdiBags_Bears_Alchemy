@@ -5,8 +5,8 @@
 [![Build state](https://github.com/N6REJ/AdiBags_Bears_Alchemy/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Bears_Alchemy/actions/workflows/release.yml)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/N6REJ/Adibags_Bears_Alchemy?sort=semver)
 
-![Bears](https://img.shields.io/badge/Supports-Bears-0B68D7)
-![10.0.0](https://img.shields.io/badge/Ready_for-10.0.0-darkgreen)
+![Bears](https://img.shields.io/badge/Supports-Shadowlands&nbsp;&amp;&nbsp;Dragonflight-0B68D7)
+![10.0.2](https://img.shields.io/badge/Ready_for-10.0.2-darkgreen)
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-510274-purple)](https://www.curseforge.com/wow/addons/adibags-shadowlands-alchemy)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
