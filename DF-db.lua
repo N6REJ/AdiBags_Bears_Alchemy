@@ -47,10 +47,12 @@ db.Filters = {
 			[190320] = true, -- Rousing Fire
 			[190451] = true, -- Rousing Ire
 			[190328] = true, -- Rousing Frost
+			[190322] = true, -- Rousing Order
 			[190321] = true, -- Awakened Fire
 			[190327] = true, -- Awakened Air
 			[190329] = true, -- Awakened Frost
 			[190316] = true, -- Awakened Fire
+			[190324] = true, -- Awakened Order
 		}
 	},
 	["Crafted_Reagents"] = {
