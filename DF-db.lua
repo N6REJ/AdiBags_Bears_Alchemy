@@ -69,32 +69,6 @@ db.Filters = {
    			[191496] = true, -- Omnium Draconis 1
    			[191570] = true, -- Dragon's Alchemical Solution
 		}
-	},
-	["Vendor_Reagents"] = {
-		uiName = Expansion .. " Alchemy Reagents",
-		uiDesc = "Alchemy reagents from vendors used in " .. Expansion,
-		title = "Vendor",
-		items = {
-			-- ID    = true,    --Item name
-			[191474] = true, -- Draconic Vial
-			[197861] = true, -- Fleeting Philosopher's Stone
-		}
-	},
-	["Zone_Reagents"] = {
-		uiName = "Special Reagents",
-		uiDesc = "Special reagents from " .. Expansion,
-		title = "DF Mats",
-		items = {
-			-- ID  = true,		--Item name
-			[190454] = true, -- Primal Chaos
-			[202122] = true, -- Primal Chaos Cluster
-			[200686] = true, -- Primal Focus
-			[190456] = true, -- Artisan's Mettle
-			[201405] = true, -- Tuft of Primal Wool -- Used by many professions
-			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
-			[190453] = true, -- Spark of Ingenuity
-			[199197] = true, -- Bottled Essence
-		}
 	}
 }
 
