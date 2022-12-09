@@ -13,7 +13,7 @@ local Expansion = E["Dragonflight"]
 local db = {}
 
 db.name = "Bears " .. Expansion .. " Alchemy"
-db.desc = "Items & Reagents found in " .. Expansion
+db.desc = "Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
