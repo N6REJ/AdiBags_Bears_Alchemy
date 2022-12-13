@@ -13,5 +13,5 @@ expansion.lua
 SL-db.lua
 DF-db.lua
 DF-Vendor.lua
-DF-Zone.lua
+DF-Global
 core.lua
