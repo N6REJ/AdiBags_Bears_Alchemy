@@ -10,7 +10,7 @@
 ## Dependencies: AdiBags
 
 expansion.lua
-DF-Vendor.lua
+Global-dbs.lua
 DF-Global.lua
 SL-db.lua
 DF-db.lua
