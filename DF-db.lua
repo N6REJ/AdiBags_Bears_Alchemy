@@ -36,6 +36,7 @@ db.Filters = {
 			[191467] = true, -- Bubble poppy 1
 			[200506] = true, -- Roused Seedling
 			[200508] = true, -- Propagating Roused Seedling
+			[200507] = true, -- Decayed Roused Seedling
 		}
 	},
 	["Crafted_Reagents"] = {
