@@ -34,9 +34,18 @@ db.Filters = {
 			[191469] = true, -- Bubble poppy 3
 			[191468] = true, -- Bubble poppy 2
 			[191467] = true, -- Bubble poppy 1
+		}
+	},
+	["Seed"] = {
+		uiName = "Bears " .. Expansion .. " Seeds",
+		uiDesc = "Seeds found in " .. Expansion,
+		title = "Seeds",
+		items = {-- ID,	--Item name
 			[200506] = true, -- Roused Seedling
 			[200508] = true, -- Propagating Roused Seedling
 			[200507] = true, -- Decayed Roused Seedling
+			[200509] = true, -- Agitated Roused Seedling
+			[23788] = true, -- Tree Seedling
 		}
 	},
 	["Crafted_Reagents"] = {
