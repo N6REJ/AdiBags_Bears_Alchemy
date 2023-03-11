@@ -21,7 +21,8 @@ db.Filters = {
 		uiName = "Bears " .. Expansion .. " Herbs",
 		uiDesc = "Herbs found in " .. Expansion,
 		title = "Herbs",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[191460] = true, -- Hochenblume 1
 			[191461] = true, -- Hochenblume 2
 			[191462] = true, -- Hochenblume 3
@@ -33,24 +34,25 @@ db.Filters = {
 			[191472] = true, -- Writhebark 3
 			[191469] = true, -- Bubble poppy 3
 			[191468] = true, -- Bubble poppy 2
-			[191467] = true, -- Bubble poppy 1
+			[191467] = true -- Bubble poppy 1
 		}
 	},
 	["Seed"] = {
 		uiName = "Bears " .. Expansion .. " Seeds",
 		uiDesc = "Seeds found in " .. Expansion,
 		title = "Seeds",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[200506] = true, -- Roused Seedling
 			[200508] = true, -- Propagating Roused Seedling
 			[200507] = true, -- Decayed Roused Seedling
 			[200509] = true, -- Agitated Roused Seedling
-			[23788] = true, -- Tree Seedling
+			[23788] = true -- Tree Seedling
 		}
 	},
 	["Crafted_Reagents"] = {
 		uiName = "Bears " .. Expansion .. " Crafted Reagents",
-		uiDesc = "Assorted crafted reagents used in " .. Expansion,
+		uiDesc = "Alchemy crafted reagents used in " .. Expansion,
 		title = "Crafted",
 		items = {
 			-- ID  = true,		--Item name
@@ -58,13 +60,12 @@ db.Filters = {
 			[191494] = true, -- Primal Convergent 2
 			[191493] = true, -- Primal Convergent 1
 			[191498] = true, -- Omnium Draconis 3
-   			[191497] = true, -- Omnium Draconis 2
-   			[191496] = true, -- Omnium Draconis 1
-   			[191570] = true, -- Dragon's Alchemical Solution
+			[191497] = true, -- Omnium Draconis 2
+			[191496] = true, -- Omnium Draconis 1
+			[191570] = true -- Dragon's Alchemical Solution
 		}
 	}
 }
 
 -- now that db is populated lets pass it on.
 addonTable.Dragonflight = db
-
