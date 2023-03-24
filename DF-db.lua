@@ -64,6 +64,15 @@ db.Filters = {
 			[191496] = true, -- Omnium Draconis 1
 			[191570] = true -- Dragon's Alchemical Solution
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan Alchemy reagents",
+		uiDesc = "Artisan reagents found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203398] = true, -- Dampening Powder
+		}
 	}
 }
 
