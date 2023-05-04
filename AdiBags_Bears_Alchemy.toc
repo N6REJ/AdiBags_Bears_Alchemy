@@ -6,7 +6,7 @@
 ## X-License: MIT
 ## X-Curse-Project-ID: 510274
 ## X-Wago-ID: baNDWpGo
-## IconTexture: Interface\Icons\Inv_misc_bag_08
+## IconTexture: Interface\Icons\Ui-gearmanager-itemintobag
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
