@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Size](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Bears_Alchemy) 
 [![Build state](https://github.com/N6REJ/AdiBags_Bears_Alchemy/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Bears_Alchemy/actions/workflows/release.yml)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/N6REJ/Adibags_Bears_Alchemy?sort=semver)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/N6REJ/AdiBags_Bears_Alchemy?sort=semver)
 
 ![Bears](https://img.shields.io/badge/Supports-Shadowlands&nbsp;&amp;&nbsp;Dragonflight-0B68D7)
 ![10.0.2](https://img.shields.io/badge/Ready_for-10.0.2-darkgreen)
